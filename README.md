@@ -1,7 +1,7 @@
-# vivaleak
+# Vivaleak
 Vivaldi has a bug that keeps persistent personal info in sqlite tables even after clearing browser history.
 
-# These are the tables inside the Web Data database:
+## These are the tables inside the Web Data database:
 
 autofill                   masked_credit_cards      
 autofill_model_type_state  meta                     
@@ -20,7 +20,7 @@ autofill_profile_emails
 autofill_profile_names
 autofill_profile_phones
 
-# This affects all versions of Vivaldi Web Browser < 1.14 on Linux Systems. 
+### This affects all versions of Vivaldi Web Browser < 1.14 on Linux Systems. 
 I cannot verify on windows because i hate windows and don't feel like installing a vm. However i think it's safe to assume this is affected OSX as well. Someone can
 verify.
 
