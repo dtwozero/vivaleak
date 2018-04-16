@@ -34,4 +34,8 @@ I did not verify windows and OSX versions. Someone else can verify the bug on th
 
 
 
+##Usage:
 
+./vivaleak.py
+
+You should see the data pulled from phone,email, and name tables that can't be deleted.
