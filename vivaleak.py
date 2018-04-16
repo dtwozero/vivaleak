@@ -10,7 +10,7 @@ import os
 # identifiable information in the (Web Data) Sqlite database.
 
 #-I've found that 3x tables in particular cannot be erased:
-#--->autofill_profile_emails
+#-->autofill_profile_emails
 #-->autofill_profile_names
 #-->autofill_profile_phones
 
