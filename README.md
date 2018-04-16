@@ -30,8 +30,7 @@ grab this data because they know vivaldi doesn't properly clear your data when y
 I contemplated releasing the malware to drive this point home. I don't want fingers pointed at me, so i'm not releasing that.
 
 ### This affects all versions of Vivaldi Web Browser < 1.14 on Linux Systems. 
-I cannot verify on windows because i hate windows and don't feel like installing a vm. However i think it's safe to assume this is affected OSX as well. Someone can
-verify.
+I did not verify windows and OSX versions. Someone else can verify the bug on those 2x operating systems and reach out to me if they wish.
 
 
 
