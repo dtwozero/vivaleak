@@ -35,10 +35,4 @@ verify.
 
 
 
-#### A little Background
-This isn't a big deal like most disclosures. The reason i'm pointing this out is because i've noticed this problem in the past with Google chromes web browser. It
-was a lot worse back then. it was also storing emails and cc numbers in plain text on the HDD. I contacted google and submitted my report along with code to fix the
-problem. They basically told me to kick rocks, so i learned my lesson. Never disclose to a company again. Google was only interested in XSS or RCE vulns at the
-time. When a security company disclosed the same bug, USA today picked up the story and Google actually responded and made a change.
 
-I'm not going to waste my time trying to go through the proper channels anymore. I find something i'm releasing it. Simple.
