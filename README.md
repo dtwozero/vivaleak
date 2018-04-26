@@ -56,7 +56,6 @@ Securing personal data has become a huge problem. Storing a persons first and la
 dangerous. Especcially with all the spy code being released. (cough* cough*...NSA) Just imagine a bad guy that knows exaclty where to look and creates an exploit to
 grab this data because they know vivaldi doesn't properly clear your data when you ask it too.
 
-I contemplated releasing the malware to drive this point home. I don't want fingers pointed at me, so i'm not releasing that.
 
 
 
