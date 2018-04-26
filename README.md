@@ -1,6 +1,8 @@
 # Vivaleak - By dTwoZ3r0
 Vivaldi has a bug that keeps persistent personal info in sqlite tables even after clearing browser history.
 
+### This affects all versions of Vivaldi Web Browser < 1.14 on Linux Systems. 
+I did not verify windows and OSX versions. Someone else can verify the bug on those 2x operating systems and reach out to me if they wish.
 
 Contact me on Twitter: @dTwoZ3r0
 ## These are the tables inside the Web Data database:
@@ -22,6 +24,12 @@ autofill_profile_emails
 autofill_profile_names
 autofill_profile_phones
 
+## Usage:
+
+./vivaleak.py
+
+You should see the data pulled from phone,email, and name tables that can't be deleted.
+
 ## Other Areas of Concern
 
 # Directory
@@ -42,19 +50,13 @@ unless you manually go into the directory and remvoe the files.
 
 hexdump -C datafilename new_text_data_filename.txt
 
+## Conclusion
 Securing personal data has become a huge problem. Storing a persons first and last name, email address, and phone numbers in a non prived db for anyone to grab is
 dangerous. Especcially with all the spy code being released. (cough* cough*...NSA) Just imagine a bad guy that knows exaclty where to look and creates an exploit to
 grab this data because they know vivaldi doesn't properly clear your data when you ask it too.
 
 I contemplated releasing the malware to drive this point home. I don't want fingers pointed at me, so i'm not releasing that.
 
-### This affects all versions of Vivaldi Web Browser < 1.14 on Linux Systems. 
-I did not verify windows and OSX versions. Someone else can verify the bug on those 2x operating systems and reach out to me if they wish.
 
 
 
-## Usage:
-
-./vivaleak.py
-
-You should see the data pulled from phone,email, and name tables that can't be deleted.
