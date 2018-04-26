@@ -30,17 +30,18 @@ autofill_profile_phones
 
 You should see the data pulled from phone,email, and name tables that can't be deleted.
 
-## Other Areas of Concern
 
-# Directory
+# Other Areas of Concern
+
+### Directory
 /home/username/.config/vivaldi/Default/Storage/ext/mpognobbkildjkofajifpdfhcoklimli/def
 
 
-# Database File
+### Database File
 Cookies 
 -->This database stores cookies for every site visited and cannot be deleted unless you manually open the sqlite database and remove the items inside.
 
-# Directory
+### Directory
 /home/username/.config/vivaldi/Default/Storage/ext/mpognobbkildjkofajifpdfhcoklimli/def/Cache
 
 This directory holds a huge list of data files that store information on every website visited since the browser has been installed and first used. This data also cannot be deleted
