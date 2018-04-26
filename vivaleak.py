@@ -39,20 +39,17 @@ import os
 #-keywords
 #==============================================================
 
-
-
-#Global Variables:
-#-----------------------------------------------------------------------------
+# - Global Variables:
+#-----------------------------------------------------------------------------------------------------------------------------------
 #-Declare the SQLite Tables that never get erased after clearing browsing data
-temails = 'autofill_profile_emails'
-tnames  = 'autofill_profile_names'
-tphones = 'autofill_profile_phones'
+temails  = 'autofill_profile_emails'
+tnames   = 'autofill_profile_names'
+tphones  = 'autofill_profile_phones'
 
 #-Declare the location of the database in question
 web_data = os.environ['HOME'] + "/.config/vivaldi/Default/" + "Web" + " Data"
 
-
-#-----------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------------------------------------------
 #-Declare a few small functions to pull the 3x tables we're focusing on for this POC
 
 def db_phones():
@@ -91,11 +88,10 @@ def db_emails():
   
   conn.close()
 #=========================================================================
-
 def main():
   db_phones()
   db_names()
   db_emails()
-
+#=========================================================================
 if __name__ == "__main__":
   main()
