@@ -38,7 +38,9 @@ Cookies
 This directory holds a huge list of data files that store information on every website visited since the browser has been installed and first used. This data also cannot be deleted
 unless you manually go into the directory and remvoe the files.
 
-# Easy Example: hexdump -C datafilename new_text_data_filename.txt
+## Easy Example: 
+
+hexdump -C datafilename new_text_data_filename.txt
 
 Securing personal data has become a huge problem. Storing a persons first and last name, email address, and phone numbers in a non prived db for anyone to grab is
 dangerous. Especcially with all the spy code being released. (cough* cough*...NSA) Just imagine a bad guy that knows exaclty where to look and creates an exploit to
