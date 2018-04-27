@@ -1,7 +1,7 @@
 # Vivaleak - By dTwoZ3r0
 Vivaldi has a bug that keeps persistent personal info in sqlite tables even after clearing browser history.
 
-### This affects all versions of Vivaldi Web Browser < 1.14 on Linux Systems. 
+### This affects all versions of Vivaldi Web Browser < 1.15 on Linux Systems. 
 I did not verify windows and OSX versions. Someone else can verify the bug on those 2x operating systems and reach out to me if they wish.
 
 Contact me on Twitter: @dTwoZ3r0
