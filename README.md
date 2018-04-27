@@ -45,7 +45,7 @@ Cookies
 /home/username/.config/vivaldi/Default/Storage/ext/mpognobbkildjkofajifpdfhcoklimli/def/Cache
 
 This directory holds a huge list of data files that store information on every website visited since the browser has been installed and first used. This data also cannot be deleted
-unless you manually go into the directory and remvoe the files.
+unless you manually go into the directory and remove the files.
 
 ## Easy Example: 
 
