@@ -17,7 +17,7 @@ import os
 #-Additionally it does not require any special permissions to access
 #-this data.
 
-#--This affects all versions of vivaldi < 1.14.
+#--This affects all versions of vivaldi < 1.15.
 #--I have not tested this on Windows since i don't have windows machines and not going 
 #  to download a windows vm. Someone else can test this on windows if they want.
 
